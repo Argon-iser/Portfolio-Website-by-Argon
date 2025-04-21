@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arjun Srivastava | Founder's Office Professional</title>
+    <link rel="stylesheet" href="resume_style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <script>
+    // Create cursor
+    const cursor = document.createElement("div");
+    cursor.style.cssText = `
+      position: fixed;
+      width: 20px;
+      height: 20px;
+      background: #AA96DA;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 9999;
+      transform: translate(-50%, -50%);
+    `;
+    document.body.appendChild(cursor);
+
+    // Move cursor
+    document.addEventListener("mousemove", (e) => {
+      cursor.style.left = `${e.clientX}px`;
+      cursor.style.top = `${e.clientY}px`;
+    });
+
+    // Hide default cursor
+    document.documentElement.style.cursor = "none";
+  </script>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo"><span>A</span>S</div>
+        <nav>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Hi, I'm <span>Arjun Srivastava</span></h1>
+            <h2>Founder's Office Specialist</h2>
+            <p>
+              Driving business growth through strategic initiatives, data-driven
+              decisions, and operational excellence.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn">Contact Me</a>
+              <a href="#" class="btn secondary">Download CV</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <div class="bitmoji-container">
+              <!-- For Imgur URL -->
+              <img
+                src="images/bitmoji2.png"
+                alt="Your Bitmoji"
+                class="bitmoji"
+              />
+
+              <div class="circle circle-1"></div>
+              <div class="circle circle-2"></div>
+              <div class="circle circle-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <!-- For Imgur URL -->
+            <img src="images/bitmoji.png" alt="Your Bitmoji" class="bitmoji" />
+          </div>
+          <div class="about-text">
+            <p>
+              I'm a BBA Digital Business & Entrepreneurship student at IIM
+              Bangalore with a passion for working in founder's offices, helping
+              startups and established businesses scale through strategic
+              initiatives and operational excellence.
+            </p>
+            <p>
+              My expertise lies in bridging the gap between vision and
+              execution, supporting founders with data-driven decision making,
+              process optimization, and special projects that drive business
+              growth.
+            </p>
+            <div class="about-details">
+              <div class="detail">
+                <span class="detail-label">Name:</span>
+                <span class="detail-value">Arjun Srivastava</span>
+              </div>
+              <div class="detail">
+                <span class="detail-label">Email:</span>
+                <span class="detail-value"
+                  >arjunsrivastava4415stella@gmail.com</span
+                >
+              </div>
+              <div class="detail">
+                <span class="detail-label">From:</span>
+                <span class="detail-value">Lucknow, India</span>
+              </div>
+              <div class="detail">
+                <span class="detail-label">Phone:</span>
+                <span class="detail-value">+91 8175961931</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-content">
+          <div class="skills-category">
+            <h3>Founder's Office Skills</h3>
+            <div class="skill">
+              <div class="skill-info">
+                <span>Strategic Planning</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span>Business Operations</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span>Project Management</span>
+                <span>88%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 88%"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <div class="skill-info">
+                <span>Data Analysis</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span>HTML/CSS/JS</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill-info">
+                <span>Power BI/Tableau</span>
+                <span>75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+        <h2 class="section-title">My Work</h2>
+        <div class="portfolio-content">
+          <div class="portfolio-item">
+            <div class="portfolio-info">
+              <h3>Startup Growth Strategy</h3>
+              <p>
+                Developed a comprehensive growth strategy for a early-stage SaaS
+                startup.
+              </p>
+              <a href="#" class="portfolio-link">View Project</a>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-info">
+              <h3>Operational Efficiency Project</h3>
+              <p>
+                Identified and implemented process improvements saving 10+
+                hours/week.
+              </p>
+              <a href="#" class="portfolio-link">View Project</a>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <div class="portfolio-info">
+              <h3>Investor Deck Creation</h3>
+              <p>
+                Created compelling investor materials that helped secure funds.
+              </p>
+              <a href="#" class="portfolio-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications">
+      <div class="container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certifications-content">
+          <div class="certification">
+            <div class="certification-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Founder's Office Specialization</h3>
+            <p>Startup School by Y Combinator</p>
+          </div>
+          <div class="certification">
+            <div class="certification-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Business Operations</h3>
+            <p>Coursera (UPenn Wharton)</p>
+          </div>
+          <div class="certification">
+            <div class="certification-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Data-Driven Decision Making</h3>
+            <p>Google Data Analytics</p>
+          </div>
+          <div class="certification">
+            <div class="certification-icon">
+              <i class="fas fa-certificate"></i>
+            </div>
+            <h3>Strategic Management</h3>
+            <p>Harvard Business School Online</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Email</h3>
+                <p>arjunsrivastava4415stella@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Phone</h3>
+                <p>+91 8175961931</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-text">
+                <h3>Location</h3>
+                <p>Lucknow, India</p>
+              </div>
+            </div>
+          </div>
+          <form
+            action="https://docs.google.com/forms/d/e/1FAIpQLSeqIOxhonBg-bunXJTAf1JCSPYVVpFnJKY0xTI_gNRBAE8bsQ/formResponse"
+            method="POST"
+            target="_blank"
+            class="contact-form"
+          >
+            <!-- Name -->
+            <input
+              type="text"
+              name="entry.475502472"
+              placeholder="Your Name"
+              required
+            />
+
+            <!-- Email -->
+            <input
+              type="email"
+              name="entry.222035611"
+              placeholder="Your Email"
+              required
+            />
+
+            <!-- Subject -->
+            <input type="text" name="entry.917168698" placeholder="Subject" />
+
+            <!-- Message -->
+            <textarea
+              name="entry.212602521"
+              placeholder="Your Message"
+              required
+            ></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo"><span>A</span>S</div>
+          <div class="footer-links">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <div class="footer-copyright">
+            <p>&copy; 2025 Arjun Srivastava. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="resume.js"></script>
+  </body>
+</html>
